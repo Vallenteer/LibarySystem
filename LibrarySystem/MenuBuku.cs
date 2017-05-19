@@ -13,7 +13,7 @@ namespace Assignment2
 			bool inBookMenu = true;
 			while (inBookMenu)
 			{
-				Console.WriteLine("1 - Tampilkan hanya buku\n2 - Tampilkan buku yang bisa dipinjam\n3 - Tampilkan buku dengan judul tertentu\n4 - Tampilkan buku dengan pengarang tertentu\n5 - Kembali ke main menu");
+				Console.WriteLine("1 - Tampilkan wkakakak buku\n2 - Tampilkan buku yang bisa dipinjam\n3 - Tampilkan buku dengan judul tertentu\n4 - Tampilkan buku dengan pengarang tertentu\n5 - Kembali ke main menu");
 				int bookMenu;
 				lineForTryParse = Console.ReadLine();
 				if (!int.TryParse(lineForTryParse, out bookMenu))
